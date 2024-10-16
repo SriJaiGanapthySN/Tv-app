@@ -1,0 +1,118 @@
+ul{
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10;
+}
+li{
+  background-color:violet;
+  color: black;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+img{
+  height:100px;
+  width: 100px;
+}
+
+#movie{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#displaymovie{
+  display: flex;
+}
+body{
+  background-color: black;
+}
+
+#description{
+  font-size: smaller;
+}
+#navbar{
+  color: white;
+  font-size: 100;
+  text-align: center;
+}
+button{
+  margin: 1em;
+  background-color: black;
+  color:violet;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border:none;
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+
+button:active{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid black;
+}
+
+#summary{
+  color: aliceblue;
+}
+#loading{
+  color: white;
+  font-size: 100;
+  text-align: center;
+}
+
+#show-img{
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+#summary{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: violet;
+}
+
+#summary-button-div{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+#sum-button{
+  margin: 1em;
+  background-color: violet;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#sum-button:hover{
+  background-color: white;
+  color: violet;
+}
+
+#booknow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
